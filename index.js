@@ -59,7 +59,7 @@ function removeFromCart(item) {
     i+=1;
   }
   if(found === 0){
-    return "That item is not in your cart";
+    return "That item is not in your cart.";
   }else{
     return cart;
   }
