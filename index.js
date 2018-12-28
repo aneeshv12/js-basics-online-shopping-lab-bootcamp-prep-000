@@ -52,7 +52,9 @@ function removeFromCart(item) {
   var found = false;
   var i = 0;
   while(found === false){
-    
+    if(cart[i]["itemName"] === item){
+      
+    }
   }
 }
 
