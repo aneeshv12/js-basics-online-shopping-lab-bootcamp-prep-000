@@ -44,6 +44,7 @@ function total() {
   for(var i =0;i<cart.length;i++){
     value += cart[i]["itemPrice"];
   }
+  return value;
 }
 
 function removeFromCart(item) {
