@@ -15,6 +15,7 @@ function generatePrice(){
 
 function addToCart(item) {
  // write your code here
+ cart.push({"itemName":item,"itemPrice":generatePrice()})
 }
 
 function viewCart() {
