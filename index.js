@@ -40,7 +40,10 @@ function viewCart() {
 
 function total() {
   // write your code here
-  
+  var value = 0;
+  for(var i =0;i<cart.length;i++){
+    value += cart[i]["itemPrice"];
+  }
 }
 
 function removeFromCart(item) {
