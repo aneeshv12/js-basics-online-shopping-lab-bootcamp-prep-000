@@ -36,11 +36,11 @@ function viewCart() {
     }
   }
   return empty.join("");
-  
 }
 
 function total() {
   // write your code here
+  
 }
 
 function removeFromCart(item) {
