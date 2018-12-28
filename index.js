@@ -9,6 +9,10 @@ function setCart(c) {
   return cart;
 }
 
+function generatePrice(){
+  return Math.floor(Math.random() * 100) + 1  
+}
+
 function addToCart(item) {
  // write your code here
 }
