@@ -21,6 +21,8 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
+  var empty = '';
+  
 }
 
 function total() {
