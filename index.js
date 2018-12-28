@@ -26,7 +26,7 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
   if(cart.length === 1){
-    return `In your cart, you have ${cart[0][]}`
+    return `In your cart, you have ${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}.`
   }
   for(var i =0;i<cart.length;i++){
     if(i===cart.length-1){
@@ -35,6 +35,7 @@ function viewCart() {
       empty.push(`${cart[i]["itemName"]} at $${cart[i]["itemPrice"]}, `)
     }
   }
+  return empty.join("");
   
 }
 
