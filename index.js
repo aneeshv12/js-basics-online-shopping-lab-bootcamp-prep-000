@@ -49,12 +49,14 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  var found = false;
+  var found = 0;
   var i = 0;
-  while(found === false){
+  while(found === 0 && i<item.length){
     if(cart[i]["itemName"] === item){
-      
+      cart.splice(i,1);
+      found = 1;
     }
+    i+=1;
   }
 }
 
